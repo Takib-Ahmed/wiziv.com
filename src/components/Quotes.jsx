@@ -48,7 +48,7 @@ export default function Quotes(){
 
    
  }} >
-      <img src="/public/Quotes/Vector.png" alt="" className=" rotate-180" />
+      <img src="/Quotes/Vector.png" alt="" className=" rotate-180" />
 
       </Button> <Button color="danger" variant="" className="bg-[#96ACAF33]  w-20 hidden md:block prevnext" onClick={()=>{
     const Buttontoclick = document.querySelectorAll(".Dots");
@@ -62,7 +62,7 @@ export default function Quotes(){
 
    
  }}>
-        <img src="/public/Quotes/Vector.png" alt="" />
+        <img src="/Quotes/Vector.png" alt="" />
       </Button> 
  </div>
 <div className=" Quotes flex scroll-smooth  gap-10  ">
