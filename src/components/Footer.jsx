@@ -1,9 +1,9 @@
 export default function Footer(){
     return (
         <>
-<div className="flex justify-between bg-[#07292F] p-5 px-16 mt-5">
+<div className="flex flex-wrap sm:flex-nowrap  justify-center gap-3 sm:gap-0 sm:justify-between bg-[#07292F] p-5 px-16 mt-5">
     <div className="brand">
-        <img src="/public/Footer/Logo.png" alt="" />
+        <img src="/Footer/Logo.png" alt="" />
 
     </div>
     <div className="copyright text-[#96ACAF] font-light">

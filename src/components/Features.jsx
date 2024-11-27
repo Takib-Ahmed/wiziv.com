@@ -3,18 +3,18 @@ import { useState } from "react";
 export default function Features(){
     const [Featurelist] = useState([
         {
-            icon:'/public/Features/ph_magic-wand-duotone.png',
+            icon:'/Features/ph_magic-wand-duotone.png',
             title:"You’re in Control",
             des:'aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work.'
         },
         {
-            icon:'/public/Features/ph_graph-duotone.png',
+            icon:'/Features/ph_graph-duotone.png',
             title:"Infinitely Scalable",
             des:'Train an aiDR on a patch. When you are happy with the results, scale it effortlessly.'
         }
         ,
         {
-            icon:'/public/Features/ph_arrows-out-cardinal-duotone.png',
+            icon:'/Features/ph_arrows-out-cardinal-duotone.png',
             title:"Incredibly Flexible",
             des:'Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time.'
         }

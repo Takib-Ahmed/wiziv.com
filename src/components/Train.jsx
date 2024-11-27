@@ -27,7 +27,7 @@ export default function Train(){
           {
             Traindetaillist.benefits.map((value,key)=>(
               <div key={key} className=" text-Light flex gap-2">
-               <img src="/public/Train/Group.png" alt=""  className="w-5 h-5"/> <font className=' translate-y-[-3px] font-normal'>{value}</font>
+               <img src="/Train/Group.png" alt=""  className="w-5 h-5"/> <font className=' translate-y-[-3px] font-normal'>{value}</font>
               </div>
             ))
           }

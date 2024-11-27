@@ -6,7 +6,7 @@ export default function Partners(){
         partners:[
             ' /partners/BackHub logo.png',
             ' /partners/CableLabs logo.png',
-            ' /partners/DBS logo.png','/public/partners/EasyEuro logo.png'
+            ' /partners/DBS logo.png','/partners/EasyEuro logo.png'
             ,'/partners/AMD logo.png'
             
         ]

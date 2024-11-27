@@ -36,7 +36,7 @@ export default function Header(){
     <div className="nav">
     <Navbar className=" w-screen  bg-transparent  top-0  items-end px-14 lg:px-16 "  position="sticky" >
       <NavbarBrand>
-     <img src="/public/Logo/Logo.png" alt="" />
+     <img src="/Logo/Logo.png" alt="" />
     </NavbarBrand>
       <NavbarContent className=" hidden lg:flex gap-10  right-0" justify="center">
        {
