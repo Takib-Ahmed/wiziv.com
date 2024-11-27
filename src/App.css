@@ -6,9 +6,7 @@
 }
 body{
     background-color: #002228;
-    overflow-x: hidden;
- 
-   
+    overflow-x: hidden; 
 }
 .nav{
     overflow: hidden !important;
