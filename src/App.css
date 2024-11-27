@@ -5,13 +5,14 @@
 }
 body{
     background-color: #002228;
-    height: 100vh;
+    overflow-x: hidden;
+   
 }
 
 
 header{
     padding: 0 0 !important;
-    max-width: 100% !important;
+    max-width: inherit !important;
 }
 .Hero{
     background: url('/public/Hero/Img.png') no-repeat  ;
@@ -19,4 +20,12 @@ header{
     width: inherit;
     background-position: right;
 
+}
+
+
+.train{
+
+
+    background: url('/public/Train/Frame 17.png' ) no-repeat;
+    object-fit: cover;
 }

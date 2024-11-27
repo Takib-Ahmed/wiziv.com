@@ -15,7 +15,8 @@ export default {
         secondary:'#96ACAF',
         foreground:'#02242A',
         default:'#ffff',
-        Highlight:'#0FF1F6'
+        Highlight:'#0FF1F6',
+        Light:'#14BCB2',
       }
     },
   },

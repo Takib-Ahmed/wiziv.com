@@ -15,6 +15,8 @@ export default function Header(){
   radius:'full',
   color:'primary',
   bg:'bg-[#0FF1F6]'
+
+  
   
 },
 {
@@ -54,7 +56,7 @@ export default function Header(){
      {
       Navitems.Buttons.map((value,key)=>(
         <NavbarItem key={key}>
-        <Button as={Link} className={` text-white  ` + `${value.bg}`}color={value.color} href="#" variant={value.variant} radius={value.radius}>
+        <Button as={Link} className={` text-black  ` + `${value.bg || 'text-white'}`}color={value.color} href="#" variant={value.variant} radius={value.radius}>
       {value.innertext}
         </Button>
       </NavbarItem>
