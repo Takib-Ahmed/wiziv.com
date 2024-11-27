@@ -7,13 +7,14 @@
 body{
     background-color: #002228;
     overflow-x: hidden;
- 
+ height: 2000vh;
    
 }
 .nav{
     overflow: hidden !important;
     position: sticky;
     top: 0;
+    z-index: 999999999999999999999;
 }
 .Quotes{
 
@@ -42,6 +43,7 @@ header{
 }
 .Hero{
     background: url('/public/Hero/Img.png') no-repeat  ;
+    background-size: cover;
     object-fit: cover;
     width: inherit;
     background-position: right;
@@ -54,7 +56,39 @@ header{
 
     background: url('/public/Train/Frame 17.png' ) no-repeat;
     object-fit: cover;
+    background-size: cover;
     border-radius: 20px 20px !important;
     padding-top: 8%;
     padding-bottom: 8%;
+}
+
+.Effort{
+  background: url('/public/Effort/Frame 18.png') no-repeat;
+  object-fit: cover;
+  height: max-content;
+}
+
+@media only screen and (max-width: 700px) {
+  .Effort{
+    background: url('/public/Effort/Frame 36.jpg') no-repeat;
+    object-fit: cover;
+    height: max-content;
+    background-size: cover;
+    border-radius: 50px !important;
+  }
+  .train{
+    background: url('/public/Effort/Frame 36.jpg') no-repeat;
+    object-fit: cover;
+    height: max-content;
+    background-size: cover;
+    border-radius: 50px !important;
+  }
+  .Hero{
+    background: url('/public/Hero/mobile.png') no-repeat  ;
+    background-size: cover;
+    object-fit: cover;
+    width: inherit;
+    background-position: right;
+
+}
 }

@@ -18,7 +18,7 @@ export default function Train(){
         </div>
         </div>
       
-        <div className="traindes text-gray-300 w-80">
+        <div className="traindes text-gray-300 sm:w-80">
 {
   Traindetaillist.des
 }
