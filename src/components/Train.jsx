@@ -10,7 +10,7 @@ export default function Train(){
   })
     return (
       <>
-      <div className="train  justify-end items-end grid gap-5 p-10 m-16  py-28">
+      <div className="train  justify-end items-end grid gap-10 p-5 sm:p-10 m-10 sm:m-16  py-28 rounded-3xl">
         <div className="Title text-white text-3xl">
           {Traindetaillist.Title}
           <div className="subtitle text-2xl text-Highlight">
@@ -26,8 +26,8 @@ export default function Train(){
         <div className="benefits flex gap-5 flex-wrap     w-[59.5%]">
           {
             Traindetaillist.benefits.map((value,key)=>(
-              <div key={key} className=" text-Light">
-                {value}
+              <div key={key} className=" text-Light flex gap-2">
+               <img src="/public/Train/Group.png" alt=""  className="w-5 h-5"/> <font className=' translate-y-[-3px] font-normal'>{value}</font>
               </div>
             ))
           }

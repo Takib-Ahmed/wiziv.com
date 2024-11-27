@@ -28,4 +28,5 @@ header{
 
     background: url('/public/Train/Frame 17.png' ) no-repeat;
     object-fit: cover;
+    border-radius: 20px !important;
 }

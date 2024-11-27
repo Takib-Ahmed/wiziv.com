@@ -26,7 +26,7 @@ export default function Features(){
              <div key={key} className={`grid top-0 w-fit` + `${key===2 ? ' gap-3 ' : ' '}`}>
              <div className="icon"><img src={value.icon} alt="" /></div>
              <div className={`title text-xl text-white font-bold ` + `${key===2 ? '  ' : ' '}`} >{value.title}</div>
-             <div className="des    sm:w-40 md:w-60 text-wrap relative text-gray-300 font-light ">{value.des}</div>
+             <div className="des    sm:w-40 md:w-52 text-wrap relative text-gray-300 font-light ">{value.des}</div>
          </div>
            ))}
         </div>
