@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002228;
+    height: 100vh;
+}
+
+
+header{
+    padding: 0 0 !important;
+    max-width: 100% !important;
+}
+.Hero{
+    background: url('/public/Hero/Img.png') no-repeat  ;
+    object-fit: cover;
+    width: inherit;
+    background-position: right;
+
+}
