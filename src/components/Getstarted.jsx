@@ -12,7 +12,7 @@ export default function Getstarted(){
     })
     return (
      <>
-     <center className="grid gap-10 items-center text-center">
+     <center className="grid gap-10 items-center text-center my-10 p-10">
         <div className=" Title text-[#14BCB2]  text-[medium]">{Getstartedlist.Title}</div>
         <div className=" Message text-3xl text-white"><i>Embrace</i> <font className="font-bold">the new era of</font> <i>outbound.</i></div>
         <div className=" Des  font-light text-gray-300  flex justify-center "><font className=" px-20 lg:px-0 lg:w-[30%]">{Getstartedlist.Des}</font></div>

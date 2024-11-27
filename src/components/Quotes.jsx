@@ -64,14 +64,18 @@ export default function Quotes(){
         Faded
       </Button> 
  </div>
-<div className=" Quotes flex scroll-smooth   ">
+<div className=" Quotes flex scroll-smooth  gap-10  ">
 
     {Quoteslist.Quotes.map((value,key)=>(
-       <div key={key} id={key} ref={scrolledSection} className="items grid gap-5 m-20 w-screen items-center justify-center align-middle whitespace-nowrap" > 
+<div key={key} id={key} >
+<div>
+<div key={key}  ref={scrolledSection} className="items grid gap-5 m-20 w-screen items-center justify-center align-middle whitespace-nowrap" > 
        <div className="icon  "><div className=" bg-[#183A40] rounded-[50%] w-fit p-3 px-2 flex justify-center"><img src={'/public/Quotes/“.png'} alt="" /></div></div>
-       <div className="quote text-2xl text-white  text-center flex justify-center"><center className="w-[50%] text-center">{value.Quote}</center></div>
+       <div className="quote text-2xl text-white  text-center flex justify-center"><center className=" text-center">{value.Quote}</center></div>
        <div className="name text-Highlight font-bold">{value.Name}</div>
        <div className="brand text-gray-300 font-light">{value.Brand}</div></div>
+</div>
+</div>
     ))}
 </div>
  <div className="buttons flex  justify-center gap-5">

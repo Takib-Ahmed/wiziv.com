@@ -7,7 +7,7 @@
 body{
     background-color: #002228;
     overflow-x: hidden;
- height: 2000vh;
+ 
    
 }
 .nav{
@@ -20,8 +20,12 @@ body{
 
    width:100%;
    overflow-x: scroll;
+   /* scroll-snap-type: x mandatory; 
+   overflow-x: scroll;
+   display: flex;
+   scroll-behavior: smooth; */
    .items{
-    
+    /* scroll-snap-align: center; */
   width: 100vw;
    }
    &::-webkit-scrollbar {
