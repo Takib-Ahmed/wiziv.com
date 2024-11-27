@@ -33,7 +33,8 @@ export default function Header(){
   )
     return (
         <>
-         <Navbar className=" w-screen  bg-transparent  top-0  items-end px-14 lg:px-16 "  position="sticky" >
+    <div className="nav">
+    <Navbar className=" w-screen  bg-transparent  top-0  items-end px-14 lg:px-16 "  position="sticky" >
       <NavbarBrand>
      <img src="/public/Logo/Logo.png" alt="" />
     </NavbarBrand>
@@ -65,6 +66,7 @@ export default function Header(){
      
       </NavbarContent>
     </Navbar>
+    </div>
         
         </>
     );

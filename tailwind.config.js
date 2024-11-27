@@ -17,6 +17,7 @@ export default {
         default:'#ffff',
         Highlight:'#0FF1F6',
         Light:'#14BCB2',
+        success:'#183A40'
       }
     },
   },

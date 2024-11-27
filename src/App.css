@@ -2,13 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body{
     background-color: #002228;
     overflow-x: hidden;
+ 
    
 }
+.nav{
+    overflow: hidden !important;
+    position: sticky;
+    top: 0;
+}
+.Quotes{
 
+   width:100%;
+   overflow-x: scroll;
+   .items{
+    
+  width: 100vw;
+   }
+   &::-webkit-scrollbar {
+    height: 10px; /* Scrollbar height */
+  }
+
+&::-webkit-scrollbar-thumb {
+    
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent; /* Transparent track */
+  }
+}
 
 header{
     padding: 0 0 !important;
@@ -28,5 +54,7 @@ header{
 
     background: url('/public/Train/Frame 17.png' ) no-repeat;
     object-fit: cover;
-    border-radius: 20px !important;
+    border-radius: 20px 20px !important;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }

@@ -10,7 +10,7 @@ export default function Train(){
   })
     return (
       <>
-      <div className="train  justify-end items-end grid gap-10 p-5 sm:p-10 m-10 sm:m-16  py-28 rounded-3xl">
+      <div className="train  justify-end items-end grid gap-10 p-5 sm:p-10 m-10 sm:m-16  py-30 rounded-3xl">
         <div className="Title text-white text-3xl">
           {Traindetaillist.Title}
           <div className="subtitle text-2xl text-Highlight">
